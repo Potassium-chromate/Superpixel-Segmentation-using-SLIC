@@ -30,3 +30,11 @@ For example:
 ```
 ## Output
 The script displays the original image segmented using both the `SLI` and `SLIC_uniform` functions in two subplots. You can view the results by running the script.
+
+### example
++ orginal picture 
+![Alt Text](https://github.com/Potassium-chromate/Superpixel-Segmentation-using-SLIC/blob/main/Picture/Jujutsu_Kaisen.png)
++ without uniform `SLIC(image,50,20,'lab',10)`  
+![Alt Text](https://github.com/Potassium-chromate/Superpixel-Segmentation-using-SLIC/blob/main/Picture/Jujutsu_Kaisen_without_uniform.png)
++ with uniform `SLIC_uniform(image,75,20,'lab',10)`  
+![Alt Text](https://github.com/Potassium-chromate/Superpixel-Segmentation-using-SLIC/blob/main/Picture/Jujutsu_Kaisen_with_uniform.png)
